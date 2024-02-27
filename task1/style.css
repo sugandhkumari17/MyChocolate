@@ -75,7 +75,42 @@
     border: .1rem solid rgba(0,0,0,.3);
     display: none;
 }
+.home {
+    background-image: url("https://media.istockphoto.com/id/1401352328/photo/chocolate-background-with-chocolate-pieces-chocolate-chips-nuts-cocoa.jpg?s=612x612&w=0&k=20&c=GeTPxoS3vBAZ47W3qqFmD57SGasD7ywjfLfTB2ffm8Q=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-position: center; 
+    padding-top: 150px;
+}
+.home h1{
+    color: white;
+    font-size: 4.5rem;
+}
+.home p{
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    line-height: 1;
+}
+.home .btn{
+    background-color: white ;
+    color: #333;
+    /* border-radius: 40px; */
+    width: 120px;
+    padding: 15px 4px 15px; 
 
+    display: inline-block;
+    margin-top:1rem ;
+    border-radius: 5rem;
+    /* padding: .9rem 3.5rem ; */
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.home .btn:hover{
+    background-color: #4d0000 ;
+    color: white;
+}
 
 
 
@@ -117,6 +152,15 @@
     .header .container .icons i span{
         top:2.5rem !important;
     }
+    .home {
+        width: 100% !important;
+        left: 0; right: 0;
+        overflow-x: hidden;
+    }
+    .home h1{
+        font-size: 60px;
+    }
+   
 }
 @media (max-width:375px){
     .header .container .fa-bars {
@@ -147,6 +191,15 @@
     .header .container .icons i span{
         top:1rem !important;
     }
+    .home {
+        width: 100% !important;
+        left: 0; right: 0;
+        overflow-x: hidden;
+    }
+    .home h1{
+        font-size: 60px;
+    }
+    
 }
 @media (max-width:414px){
     .header .container .fa-bars {
@@ -175,6 +228,15 @@
     .icons{
         display: flex;
     }
+    .home {
+        width: 100% !important;
+        left: 0; right: 0;
+        overflow-x: hidden;
+    }
+    .home h1{
+        font-size: 60px;
+    }
+    
 }
 @media (max-width:430px){
     .header .container .fa-bars {
@@ -206,6 +268,15 @@
     .header .container .icons i span{
         top:1rem ;
     }
+    .home {
+        width: 100% !important;
+        left: 0; right: 0;
+        overflow-x: hidden;
+    }
+    .home h1{
+        font-size: 60px;
+    }
+    
 }
 @media (max-width:820px){
     
@@ -228,6 +299,15 @@
     .header .container .icons i span{
         top:2rem ;
     }
+    .home {
+        width: 100% !important;
+        left: 0; right: 0;
+        overflow-x: hidden;
+    }
+    .home h1{
+        font-size: 60px;
+    }
+    
 }
 @media (max-width:540px){
     .header .container .fa-bars{
@@ -239,4 +319,15 @@
     .header .container .navbar a:hover{
         font-size: 27px;
     }
+}
+@media (max-width:280px){
+    .home {
+        width: 100% !important;
+        left: 0; right: 0;
+        overflow-x: hidden;
+    }
+    .home h1{
+        font-size: 60px;
+    }
+    
 }
